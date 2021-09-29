@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+
 const bankSchema = new mongoose.Schema({
   nameBank: {
     type: String,
@@ -9,6 +10,10 @@ const bankSchema = new mongoose.Schema({
     required: true,
   },
   name: {
+    type: String,
+    required: true,
+  },
+  imageUrl: {
     type: String,
     required: true,
   },

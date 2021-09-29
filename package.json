@@ -7,14 +7,15 @@
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
+    "bootstrap": "^4.3.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "mongoose": "^6.0.7",
+    "mongoose": "^5.9.7",
     "morgan": "~1.9.1",
-    "startbootstrap-sb-admin-2": "^4.1.4"
+    "startbootstrap-sb-admin-2": "^4.0.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"
