@@ -21,10 +21,12 @@
                     <tr>
                       <td><%= i + 1 %></td>
                       <td><%= category[i].name %></td>
-                      <td> 
+                      <td>
+                        <form action="/admin/category/<%= category[i].id %>?_method=DELETE" method="POST">
                         <a href="javascript:void()" type="button" class="btn btn-warning btn-sm btn-circle button-update" data-id="<%= category[i].id %>"
                         data-name="<%= category[i].name %>"><i class="fas fa-edit"></i></a>
-                        <a href="" class="btn btn-danger btn-sm btn-circle"><i class="fas fa-trash"></i></a>
+                        <button type="submit" class="btn btn-danger btn-sm btn-circle"><i class="fas fa-trash"></i></button>
+                      </form>
                       </td>
                     </tr>
                     <%} %>
