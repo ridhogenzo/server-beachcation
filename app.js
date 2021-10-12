@@ -8,7 +8,7 @@ const session = require("express-session");
 const flash = require("connect-flash");
 //import mongoose
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/db_beachcation", {
+mongoose.connect("mongodb://127.0.0.1:27017:27017/db_beachcation", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,

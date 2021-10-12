@@ -9,10 +9,6 @@ const itemSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
-  title: {
-    type: String,
-    required: true,
-  },
   country: {
     type: String,
     default: "Indonesia",
@@ -23,6 +19,11 @@ const itemSchema = new mongoose.Schema({
   },
   isPopular: {
     type: Boolean,
+    default: false,
+  },
+  categoryId: {
+    type: ObjectId,
+    ref: "Category",
   },
   description: {
     type: String,
