@@ -77,7 +77,7 @@ describe("API ENDPOINT TESTING", () => {
     chai
       .request(app)
       .post("/api/v1/member/booking-page")
-      .set("Content-Type", "application/x-www-form-unlencoded")
+      .set("Content-Type", "application/x-www-form-urlencoded")
       .field("idItem", dataSample.idItem)
       .field("duration", dataSample.duration)
       .field("bookingStartDate", dataSample.bookingStartDate)
@@ -94,7 +94,7 @@ describe("API ENDPOINT TESTING", () => {
         expect(res).to.have.status(201);
         expect(res.body).to.be.an("Object");
         expect(res.body).to.have.property("message");
-        expect(res.body.message).to.have.equal("Success Booking");
+        expect(res.body.message).to.equal("Success Booking");
         expect(res.body).to.have.property("booking");
         expect(res.body.booking).to.have.all.keys(
           "payments",
@@ -107,13 +107,13 @@ describe("API ENDPOINT TESTING", () => {
           "memberId",
           "__v"
         );
-        expect(res.body.payments).to.have.all.keys(
+        expect(res.body.booking.payments).to.have.all.keys(
           "status",
           "proofPayment",
-          "bankForm",
+          "bankFrom",
           "accountHolder"
         );
-        expect(res.body.itemId).to.have.all.keys(
+        expect(res.body.booking.itemId).to.have.all.keys(
           "_id",
           "title",
           "price",

@@ -3,7 +3,7 @@ var mongoose = require("mongoose");
 
 // Connect to MongoDB via Mongoose
 seeder.connect(
-  "mongodb://127.0.0.1:27017/db_beachcation",
+  "mongodb+srv://ridhogenzo:Ridhohh123@cluster0.xwevx.mongodb.net/db_beachcation?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -360,7 +360,7 @@ var data = [
       // done 2
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb05"),
-        name: "SNorkling",
+        name: "Snorkling",
         type: "Outdoor",
         imageUrl: "images/facilities1.jpg",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
