@@ -9,7 +9,7 @@ const memberSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  email: {
+  emailAddress: {
     type: String,
     required: true,
   },
