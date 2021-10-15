@@ -55,7 +55,7 @@ var data = [
     documents: [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc901111"),
-        name: "Houses with beauty backyard",
+        name: "Hotel With Seafood Menu",
         itemId: [
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222") },
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223") },
@@ -65,7 +65,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc901112"),
-        name: "Hotels with large living room",
+        name: "Hotel Near Beach",
         itemId: [
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902226") },
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902227") },
@@ -95,15 +95,15 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-        title: "Tabby Town",
-        price: 12,
+        title: "Hotel Lodge Maribaya",
+        price: 750000,
         sumBooking: 2,
         country: "Indonesia",
         city: "Lampung",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
-        unit: "night",
+          "The Lodge Camp & Village merupakan penginapan #unik original yang berada di The Lodge Maribaya, terdapat 2 tipe penginapan yaitu Camping dan Joglo, coba serunya menginap dengan suasana hutan juga aktivitas yang tak kalah seru.",
+        unit: "malam",
         imageId: [
           // done
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb4") },
@@ -141,15 +141,15 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-        title: "Seattle Rain",
-        price: 20,
+        title: "Hotel Trans Resort",
+        price: 650000,
         sumBooking: 4,
         country: "Indonesia",
         city: "Bandung",
-        isPopular: false,
+        isPopular: true,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
-        unit: "night",
+          "The Lodge Camp & Village merupakan penginapan #unik original yang berada di The Lodge Maribaya, terdapat 2 tipe penginapan yaitu Camping dan Joglo, coba serunya menginap dengan suasana hutan juga aktivitas yang tak kalah seru.",
+        unit: "malam",
         imageId: [
           // done
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb1") },
@@ -193,17 +193,17 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb1"),
-        imageUrl: "images/item-1.png",
+        imageUrl: "images/featured1.jpg",
       },
       // done
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb2"),
-        imageUrl: "images/item-2.png",
+        imageUrl: "images/featured2.jpg",
       },
       // done
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb3"),
-        imageUrl: "images/item-3.png",
+        imageUrl: "images/featured3.jpg",
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb4"),
@@ -211,15 +211,15 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb5"),
-        imageUrl: "images/item-1.png",
+        imageUrl: "images/featured1.jpg",
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb6"),
-        imageUrl: "images/item-2.png",
+        imageUrl: "images/featured2.jpg",
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb7"),
-        imageUrl: "images/item-3.png",
+        imageUrl: "images/featured3.jpg",
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb9"),
@@ -266,130 +266,66 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa01"),
-        name: "badroom",
-        qty: 2,
-        imageUrl: "images/feature-1.png",
+        name: "KingBed Size",
+        qty: 1,
+        imageUrl: "images/icon1.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa02"),
-        name: "living room",
-        qty: 23,
-        imageUrl: "images/feature-2.png",
+        name: "Wifi",
+        qty: 1,
+        imageUrl: "images/icon2.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa03"),
-        name: "televison",
-        qty: 12,
-        imageUrl: "images/feature-3.png",
+        name: "Televison",
+        qty: 1,
+        imageUrl: "images/icon3.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa04"),
-        name: "televison",
-        qty: 5,
-        imageUrl: "images/feature-4.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa05"),
-        name: "mbp/s",
-        qty: 5,
-        imageUrl: "images/feature-5.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa06"),
-        name: "unit ready",
-        qty: 5,
-        imageUrl: "images/feature-6.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa07"),
-        name: "refigrator",
-        qty: 5,
-        imageUrl: "images/feature-7.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08"),
-        name: "televion",
-        qty: 5,
-        imageUrl: "images/feature-8.png",
+        name: "",
+        qty: 1,
+        imageUrl: "images/icon4.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       // item 2
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa09"),
-        name: "badroom",
-        qty: 2,
-        imageUrl: "images/feature-1.png",
+        name: "KingBed Size",
+        qty: 1,
+        imageUrl: "images/icon1.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa10"),
-        name: "living room",
-        qty: 23,
-        imageUrl: "images/feature-2.png",
+        name: "Wifi",
+        qty: 1,
+        imageUrl: "images/icon2.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa11"),
-        name: "televison",
-        qty: 12,
-        imageUrl: "images/feature-3.png",
+        name: "Televison",
+        qty: 1,
+        imageUrl: "images/icon3.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa12"),
-        name: "televison",
-        qty: 5,
-        imageUrl: "images/feature-4.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa13"),
-        name: "mbp/s",
-        qty: 5,
-        imageUrl: "images/feature-5.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa14"),
-        name: "unit ready",
-        qty: 5,
-        imageUrl: "images/feature-6.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa15"),
-        name: "refigrator",
-        qty: 5,
-        imageUrl: "images/feature-7.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-      },
-      {
-        // done
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa16"),
-        name: "televion",
-        qty: 5,
-        imageUrl: "images/feature-8.png",
+        name: "Refrigerator",
+        qty: 1,
+        imageUrl: "images/icon4.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
     ],
@@ -402,59 +338,45 @@ var data = [
       // done
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01"),
-        name: "Green Lake",
-        type: "Nature",
-        imageUrl: "images/activity-1.png",
+        name: "Snorkling",
+        type: "Outdoor",
+        imageUrl: "images/facilities1.jpg",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02"),
         name: "Dog Clubs",
-        type: "Pool",
-        imageUrl: "images/activity-2.png",
+        type: "Adrenaline",
+        imageUrl: "images/facilities2.jpg",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03"),
-        name: "Labour and Wait",
-        type: "Shopping",
-        imageUrl: "images/activity-3.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-      },
-      {
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04"),
-        name: "Labour and Wait",
-        type: "Shopping",
-        imageUrl: "images/activity-4.png",
+        name: "Beautiful View",
+        type: "Leisure",
+        imageUrl: "images/facilities3.jpg",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       // done 2
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb05"),
-        name: "Green Lake",
-        type: "Nature",
-        imageUrl: "images/activity-3.png",
+        name: "SNorkling",
+        type: "Outdoor",
+        imageUrl: "images/facilities1.jpg",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb06"),
-        name: "Dog Clubs",
-        type: "Pool",
-        imageUrl: "images/activity-2.png",
+        name: "Banana Boat",
+        type: "Adrenaline",
+        imageUrl: "images/facilities2.jpg",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb07"),
-        name: "Labour and Wait",
-        type: "Shopping",
-        imageUrl: "images/activity-1.png",
-        itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-      },
-      {
-        _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb08"),
-        name: "Labour and Wait",
-        type: "Shopping",
-        imageUrl: "images/activity-4.png",
+        name: "Beautiful View",
+        type: "Leisure",
+        imageUrl: "images/facilities3.jpg",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
     ],
@@ -472,15 +394,15 @@ var data = [
         invoice: 1231231,
         itemId: {
           _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-          title: "Village Angga",
-          price: 6,
+          title: "Hotel Lodge Maribaya",
+          price: 750000,
           duration: 2,
         },
-        total: 12,
+        total: 1500000,
         memberId: mongoose.Types.ObjectId("5e96cbe292b97300fc903333"),
         bankId: mongoose.Types.ObjectId("5e96cbe292b97300fc903323"),
         payments: {
-          proofPayment: "images/bukti.jpg",
+          proofPayment: "images/buktibayar.jpg",
           bankFrom: "BCA",
           status: "Proses",
           accountHolder: "ang",
@@ -516,16 +438,16 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc903322"),
         nameBank: "Mandiri",
-        nomorRekening: "089898",
-        name: "elfin",
-        imageUrl: "images/9999999999.png",
+        nomorRekening: "55417158158",
+        name: "Ridho Hayatullah",
+        imageUrl: "images/logo-mandiri.jpg",
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc903323"),
         nameBank: "BCA",
-        nomorRekening: "878678",
-        name: "elfin",
-        imageUrl: "images/9999999999.png",
+        nomorRekening: "55417158",
+        name: "Ridho Hayatullah",
+        imageUrl: "images/logo-bca.jpg",
       },
     ],
   },
