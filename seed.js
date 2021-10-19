@@ -352,7 +352,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb5"),
-        imageUrl: "images/image-featured4.jpg",
+        imageUrl: "images/image-featured4.png",
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb6"),
@@ -493,7 +493,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa01"),
         name: "Kingbed Size",
         qty: 2,
-        imageUrl: "images/icon1.jpg",
+        imageUrl: "images/icon1.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
@@ -501,7 +501,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa02"),
         name: "Wifi",
         qty: 1,
-        imageUrl: "images/icon2.jpg",
+        imageUrl: "images/icon2.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
@@ -509,7 +509,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa03"),
         name: "Televison",
         qty: 1,
-        imageUrl: "images/icon3.jpg",
+        imageUrl: "images/icon3.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
@@ -517,7 +517,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa04"),
         name: "Refrigerator",
         qty: 1,
-        imageUrl: "images/icon4.jpg",
+        imageUrl: "images/icon4.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       // item 2
@@ -526,7 +526,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa09"),
         name: "Kingbed Size",
         qty: 2,
-        imageUrl: "images/icon1.jpg",
+        imageUrl: "images/icon1.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
@@ -534,7 +534,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa10"),
         name: "Wifi",
         qty: 1,
-        imageUrl: "images/icon2.jpg",
+        imageUrl: "images/icon2.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
@@ -542,7 +542,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa11"),
         name: "Televison",
         qty: 1,
-        imageUrl: "images/icon3.jpg",
+        imageUrl: "images/icon3.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
@@ -550,7 +550,7 @@ var data = [
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa12"),
         name: "Refrigerator",
         qty: 1,
-        imageUrl: "images/icon4.jpg",
+        imageUrl: "images/icon4.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
     ],
