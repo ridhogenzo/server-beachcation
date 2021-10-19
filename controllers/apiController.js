@@ -84,7 +84,7 @@ module.exports = {
         _id: "asd1293uasdads1",
         imageUrl: "images/testimonial2.jpg",
         name: "Happy Family",
-        rate: 4.8,
+        rate: 4.0,
         content:
           "TEMPATNYA INDAH, DENGAN PEMANDANGAN YANG BAGUS. SAYA MEREKOMENDASIKAN ...",
         familyName: "Jasmine Ramadhanti",
